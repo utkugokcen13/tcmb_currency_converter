@@ -47,7 +47,7 @@ dollar_label.grid(row=0,column=0,padx=10,pady=10,sticky='E')
 
 
 dollar_txt = DoubleVar();
-dollar_entry = Entry(window, width=10, textvariable=dollar_txt)
+dollar_entry = Entry(window, width=10, textvariable=dollar_txt,justify=RIGHT)
 dollar_entry.grid(row=0,column=1)
 
 
@@ -55,7 +55,7 @@ lira_label = Label(window,text="Türk Lirası:",font="Arial 12 bold",bg='light g
 lira_label.grid(row=1,column=0,padx=10,pady=10,sticky='W')
 
 lira_txt = DoubleVar();
-lira_entry = Entry(window, width=10, textvariable=lira_txt)
+lira_entry = Entry(window, width=10, textvariable=lira_txt,justify=RIGHT)
 lira_entry.grid(row=1,column=1)
 
 cevir_buton = Button(window, text='ÇEVİR', font='Arial 10 bold', bg='blue', fg='white',command=convert_dollar)
