@@ -1,1 +1,1 @@
-print("Hello dollar")
+print("Hello dollar/euro")
