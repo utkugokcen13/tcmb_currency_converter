@@ -1,6 +1,7 @@
-## tcmb_doviz_cevirici
+## tcmb_currency_converter
 
-## https://www.turkiye.gov.tr/doviz-kurlari adresinden alınan doların efektif satış fiyatı üzerinden doları TL'ye çeviren tkinter uygulaması.
+## The tkinter application that converts dollars value to TL based on the effective sales price of dollars taken from https://www.turkiye.gov.tr/doviz-kurlari .
+
 
 
 
