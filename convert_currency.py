@@ -51,7 +51,7 @@ dollar_entry = Entry(window, width=10, textvariable=dollar_txt)
 dollar_entry.grid(row=0,column=1)
 
 
-lira_label = Label(window,text="Türk Lirası: ",font="Arial 12 bold",bg='light grey', fg='black')
+lira_label = Label(window,text="Türk Lirası:",font="Arial 12 bold",bg='light grey', fg='black')
 lira_label.grid(row=1,column=0,padx=10,pady=10,sticky='W')
 
 lira_txt = DoubleVar();
