@@ -3,6 +3,7 @@
 # https://www.turkiye.gov.tr/doviz-kurlari
 
 from tkinter import *
+from tkinter import messagebox
 from bs4 import *
 import requests
 
@@ -25,7 +26,8 @@ def convert_dollar():
         .find_next_sibling('td').text
 
     tl_miktar = dollar_txt.get() * float(efektif_dolar_satis)
-    lira_txt.set(tl_miktar)
+    lira_txt.set(round(tl_miktar,2))
+    messagebox.showinfo("Hatırlatma","TCMB efektif dolar alış fiyatından çevrilmiştir.")
 
 
 
